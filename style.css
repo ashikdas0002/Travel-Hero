@@ -122,6 +122,36 @@ nav {
     /* margin-left: 10px; */
 }
 
+/* Popular tours section style */
+.popular-tours-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.tours-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+.tours-description {
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+
+}
+
+
 
 /* Media Query  */
 /* Mobile Divice  */
@@ -175,5 +205,31 @@ nav {
 
     .input-container input {
         margin-bottom: 20px;
+    }
+
+    .popular-tours-container {
+        flex-direction: column;
+    }
+
+    .tours-content {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .tours-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .tours-description {
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+
+    }
+
+    .tours-img img {
+        width: 200px;
+        height: 200px;
     }
 }
