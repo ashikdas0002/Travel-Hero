@@ -151,6 +151,155 @@ nav {
 
 }
 
+/* Destination container style  */
+.destination-container {
+    margin-top: 40px;
+
+}
+
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.destination-description {
+    width: 600px;
+    color: rgba(19, 19, 24, 0.70);
+    margin: 0 auto;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.destination-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+
+}
+
+.item-1 {
+    background: url("Images/Rectangle\ 5.png");
+    width: 573px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.item-1:hover {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Rectangle\ 5.png");
+
+}
+
+
+.item-2 {
+    background: url("Images/Rectangle\ 8.png");
+    width: 573px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.item-2:hover {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Rectangle\ 8.png");
+
+}
+
+.item-3 {
+    background: url("Images/Rectangle\ 6.png");
+    width: 374px;
+    height: 286px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.item-3:hover {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Rectangle\ 6.png");
+
+}
+
+.item-4 {
+    background: url("Images/Rectangle\ 7.png");
+    width: 474px;
+    height: 286px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.item-4:hover {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Rectangle\ 7.png");
+}
+
+.item-5 {
+    background: url("Images/Rectangle\ 9.png");
+    width: 274px;
+    height: 286px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.item-5:hover {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Rectangle\ 9.png");
+
+}
+
+.item-6 {
+    background: url("Images/Rectangle\ 11.png");
+    width: 474px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.item-6:hover {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Rectangle\ 11.png");
+
+
+}
+
+.item-7 {
+    background: url("Images/Rectangle\ 10.png");
+    width: 673px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.item-7:hover {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Rectangle\ 10.png");
+
+}
+
+
+
+.item-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: relative;
+    top: 30%;
+
+
+}
+
+
 
 
 /* Media Query  */
@@ -184,7 +333,7 @@ nav {
     }
 
     .header-banner {
-        width: 280px;
+        width: 220px;
         padding: 10px;
     }
 
@@ -232,4 +381,40 @@ nav {
         width: 200px;
         height: 200px;
     }
+
+    /* Destination container responsive style */
+    .destination-title {
+        font-size: 16px;
+    }
+
+    .destination-description {
+        width: 200px;
+    }
+
+    .destination-item {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .item-1,
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5,
+    .item-6,
+    .item-7 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .item-6 {
+        margin-top: 50px;
+    }
+
+    .item-title {
+        font-size: 16px;
+        position: relative;
+        top: 10%;
+    }
+
 }
