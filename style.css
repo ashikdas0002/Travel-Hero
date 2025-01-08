@@ -381,6 +381,164 @@ nav {
     /* 162.5% */
 }
 
+/* Deals & Discounts Container Style */
+.deal-discount-container {
+    margin-top: 40px;
+}
+
+.deal-discount-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deal-discount-description {
+    width: 600px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    /* 162.5% */
+}
+
+.shedule-item-1 {
+    background-image: url("Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.shedule-info-container {
+    position: relative;
+    top: 12%;
+    left: 45%;
+    width: 579px;
+    height: 389px;
+    padding: 10px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.time-max-location-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+
+}
+
+.time img {
+    width: 19px;
+    height: 19px;
+}
+
+.time p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.max-location {
+    display: flex;
+    align-items: center;
+}
+
+.max {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.max img {
+    width: 24px;
+    height: 24px;
+}
+
+.max p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 5px;
+
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.location img {
+    width: 24px;
+    height: 24px;
+}
+
+.location p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.shedule-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.shedule-description {
+    width: 452px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.shedule-price {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.see-all-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+
 /* Media Query  */
 /* Mobile Divice  */
 @media screen and (max-width: 768px) {
@@ -534,5 +692,50 @@ nav {
     .chose-us-item-description {
         width: 220px;
         margin: 0 auto;
+    }
+
+    /* Deals & Discounts Container responsive style  */
+    .deal-discount-title {
+        font-size: 24px;
+    }
+
+    .deal-discount-description {
+        width: 200px;
+    }
+
+    .time-max-location-container {
+        flex-direction: column;
+    }
+
+    .shedule-item-1 {
+        width: 350px;
+        height: 700px;
+
+    }
+
+    .shedule-info-container {
+        width: 250px;
+        height: 500px;
+        position: static;
+        margin: 0 auto;
+
+    }
+
+    .shedule-title {
+        text-align: center;
+
+    }
+
+    .shedule-description {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .shedule-price {
+        text-align: center;
+    }
+
+    .book-now {
+        text-align: center;
     }
 }
